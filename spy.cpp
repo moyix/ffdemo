@@ -16,7 +16,7 @@
 #include <mutex>
 
 // more trials show features more clearly
-#define NUMBER_OF_TRIALS (1024*1024)
+#define NUMBER_OF_TRIALS (16*1024*1024)
 
 size_t data[5*1024];
 
