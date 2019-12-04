@@ -1,0 +1,11 @@
+// Whether to use sched_yield()
+// #define NOYIELD
+
+// Whether to pin the timer thread to a single core
+// #define PIN_THREAD
+
+// Whether to use rdtsc or a timer thread
+// #define USE_RDTSC
+
+// Whether to perform each access twice
+#define NO_DOUBLE_ACCESS
