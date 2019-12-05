@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TRIALS=10
+TRIALS=100
 REPS=3
 
 ./combinations.py NOYIELD PIN_THREAD USE_RDTSC NO_DOUBLE_ACCESS | while read line ; do

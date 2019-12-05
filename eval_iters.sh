@@ -3,10 +3,9 @@
 TRIALS=100
 REPS=3
 
-iters=1024
-while [ $iters -lt $[ 32*1024*1024 ] ]; do
+iters=8
+while [ $iters -lt $[ 64*1024*1024 ] ]; do
     cat > config.h <<EOF
-#define PIN_THREAD
 #define NO_DOUBLE_ACCESS
 #define NUMBER_OF_TRIALS ($iters)
 EOF
