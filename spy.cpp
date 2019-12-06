@@ -167,9 +167,6 @@ int main(int argc, char **argv)
 #endif
 
   while (timer == 0) usleep(1);
-
-  printf("Timer value 1: %zu\n", timer);
-  printf("Timer value 2: %zu\n", timer);
 #endif
 
   guess();
